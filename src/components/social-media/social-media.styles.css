@@ -1,0 +1,40 @@
+.social-container {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 0;
+  padding: 25px 50p;
+}
+.name {
+  font-size: large;
+  color: white;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 400ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.github {
+  color: #4b0082;
+}
+
+a.linkedin {
+  color: #0e76a8;
+}
+
+a.instagram {
+  color: white;
+}
