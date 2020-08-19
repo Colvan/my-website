@@ -9,6 +9,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import AboutPage from "./pages/aboutpage/aboutpage.component";
 import ResumePage from "./pages/resumepage/resumepage.component";
 import ContactPage from "./pages/contactpage/contactpage.component";
+import knowledgePage from "./pages/knowledge/knowledge.component";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/resume" component={ResumePage} />
           <Route exact path="/contact" component={ContactPage} />
+          <Route exact path="/knowledge" component={knowledgePage} />
         </Switch>
         <SocialMedia />
       </div>
