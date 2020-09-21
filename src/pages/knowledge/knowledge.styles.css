@@ -1,0 +1,74 @@
+.knowledgePage {
+  position: absolute;
+  display: flex;
+  letter-spacing: 0.1em;
+  flex-direction: column;
+  font-size: 40px;
+  top: 110px;
+  margin: 6px;
+  gap: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.jsSkill {
+  color: aqua;
+  animation: moving 10s infinite;
+}
+
+.cssSkill {
+  color: aqua;
+  animation: moving 11s infinite;
+}
+.javaSkill {
+  color: aqua;
+  animation: moving 15s infinite;
+}
+.htmlSkill {
+  color: aqua;
+  animation: moving 12s infinite;
+}
+.reactSkill {
+  color: aqua;
+  animation: moving 13s infinite;
+}
+.gitSkill {
+  color: aqua;
+  animation: moving 20s infinite;
+}
+.githubSkill {
+  color: aqua;
+  animation: moving 19s infinite;
+}
+.trelloSkill {
+  color: aqua;
+  animation: moving 21s infinite;
+}
+.vscodeSkill {
+  color: aqua;
+  animation: moving 22s infinite;
+}
+.oopSkill {
+  color: aqua;
+  animation: moving 18s infinite;
+}
+.cSkill {
+  color: aqua;
+  animation: moving 16s infinite;
+}
+.cppSkill {
+  color: aqua;
+  animation: moving 17s infinite;
+}
+.pythonSkill {
+  color: aqua;
+  animation: moving 14s infinite;
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(1550px);
+  }
+}

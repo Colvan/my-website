@@ -1,0 +1,20 @@
+.head {
+  position: absolute;
+  color: aqua;
+  font-size: 100px;
+  top: 100px;
+  bottom: 0;
+  left: 250px;
+  right: 0px;
+  margin: auto;
+}
+.aboutme {
+  color: white;
+  position: relative;
+  top: 120px;
+  bottom: 0;
+  left: 250px;
+  right: 0px;
+  margin: auto;
+  font-size: 25px;
+}
